@@ -2,7 +2,9 @@
 
 This repository represents my knowledge of PHP and MySQL.
 
-These files all use a SQL table holding my episode list, the ~6000 items I currently have on DVD.
+These files all use a SQL table (found here as a JavaScript Object Notation file) holding my episode list, the ~6000 items I currently have on DVD.
+
+**eplist.json** - My SQL database, as a JSON.
 
 **index.php** - As I am currently watching everything in a particular order, this displays information about the current episode. This includes the name of the episode and where I can find it, the airdate, what other shows were airing around the same time, and how long until I finish the list.
 
